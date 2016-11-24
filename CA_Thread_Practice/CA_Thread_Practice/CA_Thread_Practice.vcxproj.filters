@@ -24,12 +24,18 @@
     <ClCompile Include="overloading.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="KeyEvent.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Frame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ExArray.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

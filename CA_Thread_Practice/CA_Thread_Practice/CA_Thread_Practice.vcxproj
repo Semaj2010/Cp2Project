@@ -149,10 +149,12 @@
     <ClCompile Include="minigame.cpp" />
     <ClCompile Include="mythread.cpp" />
     <ClCompile Include="overloading.cpp" />
+    <ClCompile Include="template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Frame.h" />
     <ClInclude Include="KeyEvent.h" />
+    <ClInclude Include="ExArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
