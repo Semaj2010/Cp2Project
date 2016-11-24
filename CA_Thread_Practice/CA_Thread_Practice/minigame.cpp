@@ -1,3 +1,4 @@
+#pragma once
 #include <process.h>
 #include <iostream>
 #include "KeyEvent.h"
@@ -72,7 +73,7 @@ unsigned int __stdcall keyEvent(void*) {
 	return 0;
 }
 
-int main() {
+int __main() {
 	HANDLE handleA, handleB;
 
 	handleA = (HANDLE)_beginthreadex(0, 0, &mythread, (void*)0, 0, 0);
