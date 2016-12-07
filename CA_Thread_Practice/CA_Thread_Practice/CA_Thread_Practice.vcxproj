@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="client.cpp" />
     <ClCompile Include="minigame.cpp" />
     <ClCompile Include="mythread.cpp" />
     <ClCompile Include="overloading.cpp" />
